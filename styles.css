@@ -9,11 +9,11 @@
 
   --gap: 3rem;
   --font1: Roboto, Arial, sans-serif;
-  
+
 
   --grad2: radial-gradient(circle at 10% 20%, var(--azulmedio), var(--azul));
   --grad1: linear-gradient(90deg, var(--azul), var(--azulmedio), var(--azul));
-  
+
 }
 
 * {
@@ -126,7 +126,7 @@ body {
 .carrossel-volta {
   display: flex;
   height: 30px;
-  margin: 0px ;
+  margin: 0px;
   gap: 2rem;
   animation: marquee2 25s linear infinite;
   /* Animação para movimento infinito */
@@ -188,29 +188,41 @@ body {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0.2rem;
+  justify-content: center;
 }
 
 
 .flex-div {
   border-radius: 20px;
-  flex: 1 1 200px;
+  /*   flex: 1 1 200px;
+  margin: 30px 10px 10px 10px;
+ */
+ display: flex;
+  width: 320px;
+  justify-content: space-between;
   margin: 10px;
-  padding: 15px;
+
+
   height: 280px;
   background: var(--grad2);
   align-items: center;
   position: relative;
- 
+  border: var(--verde) 0.5px solid;
+
 }
 
-.flex-div div-icon {
+#div-icon {
   position: absolute;
-  top: 0; /* Alinha o topo do ícone com o topo da flex-div */
-  left: 50%; /* Centraliza horizontalmente */
-  transform: translateX(-50%) translateY(-50%); /* Ajusta para que o centro do ícone toque a borda superior */
+  top: 0;
+  left: 5%;
+
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 10px;
+  background: var(--azul);
 }
 
 .icon {
@@ -218,13 +230,13 @@ body {
   height: 40px;
   fill: var(--verde);
   vertical-align: middle;
+
 }
 
 .flex-div p {
-  
-}
-
-.imgfundo{
+  text-align: center;
+  padding: 30px 15px 15px 15px;
 
 }
+
 /* FIM CSSS flexbox */
