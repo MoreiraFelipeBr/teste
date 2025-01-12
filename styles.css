@@ -75,6 +75,7 @@ body {
   max-width: 1200px;
   align-items: center;
   padding: 3vw;
+  
 }
 
 .chamada-acao1 {
@@ -155,6 +156,7 @@ body {
   font-size: 0.9rem;
   font-weight: bold;
   color: white;
+  
 }
 
 @keyframes marquee {
@@ -192,6 +194,7 @@ body {
   margin: 0 auto;
   padding: 0.2rem;
   justify-content: center;
+  
 }
 
 .flex-div {
@@ -229,8 +232,9 @@ body {
 }
 
 .flex-div p {
-  text-align: center;
+  text-align:justify;
   padding: 15px;
   padding-left: 30px;
+  font-size: 0.9rem;
 }
 /* FIM CSSS flexbox */
