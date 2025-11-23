@@ -117,23 +117,25 @@ a { text-decoration: none; color: inherit; }
     align-items:center;
     justify-items: center;
     gap: 10px; 
-     padding: 20px; 
+    padding: 20px; 
     width: 100%; 
     margin: 0 auto; 
     background-color: whitesmoke;
     
 }
 
-.caixa-serv {
-    flex: 0 0 auto; /* Impede que as caixas se ajustem ao tamanho do contêiner */
+/* .caixa-serv {
+    flex: 0 0 auto; 
     align-items: center;
     margin: 5px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(207, 207, 207, 0.5);
-    width: 360px;
+    width: 450px;
+
     background-color: white;
-    height: 450px;
-}
+    max-height: 750px;
+  }; 
+*/
 
 .h2serv {
     padding: 1rem;
@@ -177,6 +179,14 @@ a { text-decoration: none; color: inherit; }
     margin-bottom: 1rem;
 }
 
+.semmg {
+    margin-bottom: 0rem;
+    
+}
+.list-serv {
+    list-style: disc; /* Garante os círculos pretos */
+    padding-left: 1.5rem; /* Espaço para os marcadores */
+}
 
 
 /* Testimonials */

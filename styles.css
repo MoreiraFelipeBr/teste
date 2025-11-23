@@ -692,10 +692,16 @@ header nav ul li a {
 .txtserv {
     padding: 0 1rem;
     color: black;
-    list-style: none;
     font-size: 0.9rem;
     text-align:left;
     margin-bottom: 1rem;
+}
+
+/* Mostrar marcadores para listas que usam a classe txtserv */
+ul.txtserv {
+    list-style: disc;
+    margin-left: 1.25rem;
+    padding-left: 1rem;
 }
 
 
