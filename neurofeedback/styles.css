@@ -112,6 +112,17 @@ a { text-decoration: none; color: inherit; }
 }
 
 .corpodasecao {
+
+  display: flex;
+    justify-content: auto; 
+    margin: 5px auto;
+    padding: 10vh 0;
+    width: 100vw;
+    flex-wrap: wrap;    
+    justify-content: center; 
+    
+  
+    /*
     display: flex;
     flex-wrap: wrap;
     align-items:center;
@@ -121,7 +132,7 @@ a { text-decoration: none; color: inherit; }
     width: 100%; 
     margin: 0 auto; 
     background-color: whitesmoke;
-    
+    */
 }
 
 /* .caixa-serv {
@@ -153,11 +164,23 @@ a { text-decoration: none; color: inherit; }
     max-width: 300px;
     background-color: white;
     min-height: 400px;
+
+
+    align-items: center;
+    margin: 5px;    
+    min-width: 300px;
+    max-width: 380px;
+    background-color: white;
+    min-height: 150px;
+    
+    
+
+
 }
 
 .img-serv {
     width: 100%;
-    
+    height: 250px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
