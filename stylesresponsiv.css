@@ -1,0 +1,490 @@
+@media only screen and (max-width: 1020px) {
+  
+
+    .inicio-content1{
+        margin: 0 5%;       
+    }
+
+    .inicio-content1 h1{
+        font-size: 2rem;    
+    }
+
+    
+    .inicio-content2{
+        margin: 0 5%;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.8rem; 
+    }
+
+    h3 {
+        font-size: 1.2rem; 
+    }
+
+    p {
+        font-size: 0.9rem; 
+    }
+
+    /* Ajustes no header */
+     /* Ajustes no header */
+     .header-fixed {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 70px;
+        padding: 0;
+        z-index: 10;
+        margin: 0;
+        top: 0;
+        /*margin: solid 1px black;*/
+        /*background-color: var(--claro);*/
+        background: linear-gradient(130deg,  var(--primary-lilasclaro) 5%, var(--primary-azul) 50%, var(--secundary-verde) 95%);
+    }
+        
+    
+    
+    .header-content{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        /*border-bottom: 0.5px solid rgba(113, 196, 176, 0.4); */
+        
+    
+    }
+    
+    .logoimg{
+        display: flex;
+        padding: 5px ;
+        height: 60px ;
+        object-fit: cover;
+        content: url('img/logo-roxo.png');
+    }
+
+    #menu a {
+        color: var(--claro);
+        /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    #contatosTop {
+        display: none;
+    }
+
+
+    /* Ajustes na seção de início */
+    .inicio {
+        height: 50vh; 
+    }
+
+    .inicio-content1 {
+        padding: 1rem; 
+        padding-top:  60px;
+    }
+
+    .inicio-content1 h1 {
+        font-size: 1.6rem;
+    }
+
+    .inicio-content2 {
+        width: 80%; 
+    }
+
+    .inicio-content2 p {
+        font-size: 1rem; 
+    }
+
+    .banner-img{
+        height: auto;
+        width: 25vw;
+    }
+
+     /* Ajustes na sobre */
+    .sobre-texto1{
+        display: block;
+        margin: 10px 0 0 0;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0;
+
+    }
+
+    .sobre-texto1 p{
+        width:  90vw;
+
+    }
+    .sobre-img1{
+        width: 100vw;
+    }
+
+
+    /* Ajustes na seção de serviços */
+    .corpodasecao {
+        /*gap: 10px;  Reduz o espaçamento entre as caixas */
+        padding: 5px;
+    }
+
+    .caixa-serv {
+        min-width: 250px; /* Reduz a largura mínima das caixas */
+        max-width: 250px;
+        min-height: 350px; /* Reduz a altura das caixas */
+    }
+
+    .img-serv {
+        height: 150px; /* Reduz a altura das imagens */
+    }
+
+    .h3serv {
+        font-size: 1rem; /* Reduz o tamanho do título */
+    }
+
+    .txtserv {
+        font-size: 0.8rem; /* Reduz o tamanho do texto */
+    }
+
+    /* Ajustes na seção sobre */
+    .sobre-container {
+        flex-direction: column; /* Altera o layout para coluna */
+        align-items: center;
+    }
+
+    .sobre-caixa {
+        max-width: 100%; /* Ajusta a largura das caixas */
+        margin: 10px 0;
+    }
+
+    /* Ajustes no formulário de contato */
+    .containerform {
+        flex-direction: column; /* Altera o layout para coluna */
+        padding: 10px;
+    }
+
+    .info {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 100%; /* Ajusta a largura do formulário */
+    }
+
+    /* Ajustes no footer */
+    .footer-container {
+        flex-direction: column; /* Altera o layout para coluna */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 200px; /* Reduz o tamanho do logo no footer */
+    }
+
+    .info-section, .contact-section {
+        margin-bottom: 20px; /* Adiciona espaçamento entre as seções */
+    }
+
+    .social-icons img {
+        width: 40px; /* Reduz o tamanho dos ícones sociais */
+    }
+}
+
+
+
+
+@media only screen and (max-width: 580px) {
+    /* Ajustes no header */
+    .header-fixed {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 70px;
+        padding: 0;
+        z-index: 20;
+        margin: 0;
+        top:0;
+        /*margin: solid 1px black;*/
+        background-color: var(--claro);
+        /* background: linear-gradient(130deg,  var(--primary-lilasclaro) 5%, var(--primary-azul) 50%, var(--secundary-verde) 95%); */
+    }
+        
+    
+    
+    .header-content{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        /*border-bottom: 0.5px solid rgba(113, 196, 176, 0.4); */
+        
+    
+    }
+    
+    .logoimg{
+        display: flex;
+        padding: 5px ;
+        height: 60px ;
+        object-fit: cover;
+        content: url('img/logo-roxo.png');
+    }
+    
+    
+
+    /* Ajustes na seção de início */
+      
+
+    .inicio { 
+        /*position:static;*/
+        
+        margin: 0;
+        height: var(--vh);
+        display: block;
+        align-items: center;
+        justify-content: center;
+        /* overflow: hidden;  */
+        padding: 0 ;
+        background-color: rgba(255, 255, 255, 0.5); 
+        
+
+        
+        /* 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--claro);
+        overflow: hidden; 
+        padding: 0px ;
+        padding-top: 60px;
+        height: 90vh;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255, 0.3); */
+        
+    }
+    #section-video {
+        margin-top: 50px;
+        height: calc(var(--vh) - 50px);
+        object-position: left
+        
+     }
+
+    .inicio-content1 {
+        display: flex;
+        justify-content: center;
+        align-items:center;  
+        padding: 10vh 0 0 0;  
+        margin: 20px auto;
+        width: 94vw;
+    }
+    
+    .inicio-content2{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        z-index: 1; 
+        margin: 20px auto;
+        width: 94vw;
+        
+        /* display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5%;       
+        border: solid 1px red;
+        width: 95vw;
+     */
+
+     
+    }
+    
+    .inicio-content2 p {
+        font-size: 1.1rem; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 0;
+
+    }
+    
+
+    .banner-img{
+        display: none;
+    }
+
+
+    .inicio-content1 h1{
+        text-align: justify;
+        color: var(--escuro);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    
+    #openMenu, #closeMenu {
+        display: block;
+        
+    }
+
+    #openMenu{
+        margin-left: auto;
+        margin-right: 20px;
+        color: black;
+        cursor: pointer; 
+        padding: 5px;
+        
+    }
+
+    #closeMenu{
+        position: fixed;
+        right: 10px;
+        top: 20px;
+        cursor: pointer; 
+        font-size: 2rem;
+    }
+
+    nav{
+        position: fixed;
+        flex-direction: column;
+        width: 60vw;
+        height: 50vh;
+        background: rgba(255,255,255, 0.98);
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        display: none;
+        opacity: 0;
+        transition: 0.3s;
+        border-radius: 20px;
+        z-index: 2;
+        gap: 0;
+    }
+
+    nav.show {
+        display: flex; 
+        opacity: 1;
+    }
+
+    header nav ul li a {
+        color: var(--primary-azul);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+      
+    
+    /* Ajustes na seção de serviços */
+
+    .sobre1-container1{
+        margin: 10px auto;
+        padding: 0px;
+    }
+        
+    .corpodasecao {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap: 10px; 
+            padding: 20px;
+            width: 100%; 
+            margin: 0 auto; 
+            }
+
+    .caixa-serv {
+            width: 420px;
+            min-height:300px ;
+            height: 350px;
+            max-width: 90vw;
+    }
+
+       .img-serv {
+            height: 160px; 
+        }
+
+        .h3serv {
+            font-size: 0.9rem; 
+        }
+
+        .txtserv {
+            font-size: 0.9rem; 
+        }
+
+        /* Ajustes no formulário de contato */
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            padding: 6px; /* Reduz o padding dos campos */
+            font-size: 0.8rem; /* Reduz o tamanho da fonte */
+        }
+
+        button {
+            padding: 8px; /* Reduz o padding do botão */
+            font-size: 0.9rem; /* Reduz o tamanho da fonte */
+        }
+
+        /*      Ajustes no footer        */
+
+        .footer {
+        }
+
+        .footer-container {
+         
+        }
+
+        .footer-logo img {
+            width: 120px; 
+        }
+
+        .info-section, .contact-section {
+            width: 70%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .info-section p, .contact-section p {
+            font-size: 0.8rem; 
+            
+        }
+
+        .social-icons img {
+            width: 30px; /* Reduz o tamanho dos ícones sociais */
+        }
+
+        .contato-footer-texto{
+            font-size: 0.7rem;            
+            margin: 0px;
+        }
+
+        #contatosTop {
+            display: none;
+        }
+
+        #menu a {
+            display: block;
+            color: black;
+            font-size: 1.3rem;    
+            padding: 5px;
+        }
+
+        .footer-bottom p {
+            font-size: 0.8em;
+            color: var(--claro);
+        }
+    
+
+    }
