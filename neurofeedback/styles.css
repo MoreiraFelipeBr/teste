@@ -404,6 +404,81 @@ a {
 }
 
 
+/* seção Nossos Serviços */
+.sobre1-container2 {
+  display: flex;
+  justify-content: auto;
+  margin: 5px auto;
+  padding: 10vh 0;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+  background-image: url('assets/temp.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+
+  background-color: #d8d8d8;
+  margin: 0;
+
+
+  /* 
+    
+    max-width: 1200px;
+    margin: 10px auto; */
+}
+
+.sobre1-caixa {
+  align-items: center;
+  margin: 5px;
+  min-width: 300px;
+  max-width: 380px;
+  background-color: white;
+  min-height: 150px;
+  padding: 15px;
+  border-radius: 0 25px;
+
+}
+
+
+
+.sobre1-caixa p {
+  padding: 0 1rem;
+  list-style: none;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+
+.sobre1-caixa h4 {
+  margin-left: 5px;
+  list-style: none;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--escuro);
+
+
+
+}
+
+
+
+
+
+#sobre h3 {
+  margin: 10px auto;
+
+}
+
+
+
+
+
+
 /* Testimonials */
 .testimonial {
   display: flex;
