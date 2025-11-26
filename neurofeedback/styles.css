@@ -192,8 +192,8 @@ a {
 .about-card {
   background: var(--green-600);
   color: var(--white);
-  margin: 0 1rem;
-  border-radius: 10px;
+  /* margin: 0 1rem; */
+  /* border-radius: 10px; */
   padding: 2rem 0 3rem;
   position: relative;
 }
@@ -225,9 +225,9 @@ a {
 }
 
 .about-content {
-  padding-top: 6rem;
+  /* padding-top: 6rem; */
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
 }
 
 /* Cards / grid */
@@ -597,6 +597,9 @@ a {
     padding-top: 1rem;
   }
 
+  .about-text{
+    font-size: 1rem;
+  }
   .profile-image {
     left: 50%;
     transform: translateX(-50%);
