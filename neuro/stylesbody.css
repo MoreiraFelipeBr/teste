@@ -1,12 +1,12 @@
 
-html,
+/* html,
 body {
   height: 100%;
   background: var(--white);
   color: var(--gray-700);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(46,49,145);
